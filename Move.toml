@@ -1,0 +1,15 @@
+[package]
+name = "LootBox"
+version = "0.0.1"
+
+[dependencies]
+Sui = { local = "../sui/crates/sui-framework" }
+
+[dependencies.Movemate]
+git = "https://github.com/LoyaltyGM/movemate.git"
+subdir = "sui"
+# devnet-0.18.0
+rev = "a9b1ff5919cb5e9f6e44fd663cb84db344c171eb"
+
+[addresses]
+lootbox = "0x0"
